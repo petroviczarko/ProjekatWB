@@ -1,0 +1,159 @@
+.navbar{
+    background-color: white;
+    border-bottom-color: gold;
+    border-bottom-width: 2px;
+}
+
+.navbar-brand{
+    padding: 0;
+}
+.navbar-brand>img{
+    height: 100%;
+    
+}
+.navbar-default .navbar-nav>li>a{
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+.navbar-nav>li:hover,
+.dropdown-menu>li>a:hover,
+.navbar .nav > li.dropdown.open > a,
+.nav.navbar-nav > li.active a,
+.nav.navbar-nav > li.active a:hover{
+    background-color: gold;
+}
+
+.dropdown-menu>li>a {
+    letter-spacing: 0.2rem;
+}
+
+h1{
+    margin-top: 5rem;
+    text-align: center;
+    color: goldenrod;
+}
+
+hr{
+    width: 80%;
+    border-color:gold;
+    border-width: 2px;
+}
+
+.link{
+    color:#3c3c3c;
+}
+.link:hover{
+    color: gold;
+    transition: color 0.3s ease-in;
+}
+.thumbnail,.panel{
+    border-width: 2px;
+    border-color: gold;
+}
+
+.btn{
+    border-width: 1px;
+    border-color: gold;
+}
+
+.btn:hover{
+    color: white;
+    background-color: gold;
+    transition: background-color 0.3s ease-in;
+}
+
+.paneli{
+    margin-top: 12rem;
+}
+
+.novpanel{
+    border:none;
+    border-radius: 0;
+    padding: 0;   
+}
+
+.novpanel1{
+    border:none;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    margin-top:-1rem;
+}
+
+.novpanel2,.kolona{
+  padding: 0;  
+  margin-top:-1rem;
+}
+
+.onamapanel{
+	border: 0;
+	background-color: white;
+    color: black;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.panel-heading{
+	background-color: rgb(217,217,217);
+}
+
+.tekst{
+text-align:justify;
+text-align-last: center;
+font-family:'Times New Roman', Times, serif;
+font-size: 12pt;
+padding-top:10rem;
+}
+
+img.center{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 30%;
+
+}
+
+ul#mapa li {
+	font-size: 25px;
+	color:goldenrod;
+}
+ul#mapa li a{
+	color:goldenrod;
+}
+ul#mapa li a:hover{
+	color: gold;
+}
+
+
+.gal {
+    column-count: 3;
+}	
+.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+	.gal {column-count: 1;}
+	}
+
+
+footer{
+    text-transform: uppercase;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.692);
+    border-top: 2px solid gold;
+}
+
+footer a{
+    padding: 10px;
+}
+
+#ikonice{
+    font-size:20px;
+}
+
+.futer{
+    padding-top: 12rem;
+}
